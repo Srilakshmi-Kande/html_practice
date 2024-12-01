@@ -1,0 +1,26 @@
+<!-- 
+    . is used to divide your browser window into multiple sections
+    . each section can load separate html pages
+    . not suitable for small size screen
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Frames Tags</title>
+</head>
+  <!--   There is no body    -->
+
+  <frameset cols="25%,50%,25%">        <!--  cols/rows  -->
+    <frame name="top" src="http://www.tutorialspoint.com/html" />
+    <frame name="main" src="http://www.tutorialspoint.com/html5" />
+    <frame name="bottom" src="http://www.tutorialspoint.com/css" />
+
+    <noframe>
+        Your browser does not support frames.
+    </noframe>
+  </frameset>
+
+</html>
